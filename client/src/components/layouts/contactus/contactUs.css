@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+
+section#contact {
+  background-color: #222;
+  background-image: url(https://unsplash.imgix.net/44/C3EWdWzT8imxs0fKeKoC_blackforrest.JPG?q=75&fm=jpg&auto=format&s=986aaa92169d4e97975fa66ebd60bafd);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section#contact .section-heading {
+  color: #fff;
+}
+
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+
+section#contact .form-control:focus {
+  border-color: #1ee2e7;
+  box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+  text-transform: uppercase;
+  font-family: 'Lateef', cursive; 
+    font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+section#contact:-moz-placeholder {
+  text-transform: uppercase;
+  font-family: 'Lateef', cursive; 
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+section#contact::-moz-placeholder {
+  text-transform: uppercase;
+  font-family: 'Lateef', cursive; 
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+section#contact:-ms-input-placeholder {
+  text-transform: uppercase;
+  font-family: 'Lateef', cursive; 
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+section#contact .text-danger {
+  color: #e74c3c;
+}
+.section-subheading  h3 {
+  color: white;
+}
